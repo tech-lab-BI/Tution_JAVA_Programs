@@ -5,7 +5,7 @@ import java.util.Scanner;
 class Student {
     String name;
     int roll;
-    Marks mark = new Marks();
+    Marks mark;
 
     void display() {
         System.out.print("Name : "+name+", Roll : "+roll);
@@ -65,7 +65,7 @@ public class Main_Student {
     static void gradeStudent(Student s[]) {
     	System.out.println("Name\tGrade\tPercentage");
     	for(int i=0;i<s.length;i++) {
-    		double avg = s[i].mark.total()/3.0;
+    		double avg = (s[i].mark.total()/3.0);
     		char grade;
     		if(avg >= 90.0)
     			grade='O';
@@ -79,7 +79,7 @@ public class Main_Student {
     			grade='C';
     		else
     			grade='F';
-    		System.out.println(s[i].name+"\t"+grade+"\t"+avg+"%");
+    		System.out.println(s[i].name+"\t"+grade+"\t"+(int)avg+"%");
     	}
     }
     
@@ -99,6 +99,9 @@ public class Main_Student {
         System.out.println("Enter student details:");
         for (int i = 0; i < n; i++) {
 
+        	Marks ob = new Marks();
+        	s[i].mark = ob;
+        	
             System.out.print("Name: ");
             s[i].name = sc.nextLine();
 
