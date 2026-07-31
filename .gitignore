@@ -1,5 +1,5 @@
-/.metadata
-/.setting
-/bin
+.metadata/
+.settings/
+bin/
 .classpath
 .project
