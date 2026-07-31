@@ -70,15 +70,13 @@ class Variable{
 			}
 		}
 		static void isPalindrom() {
-			int i=str.length()-1;
+			int i=0;
 			int l=str.length();
-			System.out.println(i+" "+l);
-			while(str.charAt(i) == str.charAt(l-i+1)) {
-				System.out.println(i);
-				i--;
+			while(i < l && str.charAt(i) == str.charAt(l-i-1)) {
+				i++;
 			}
 			
-			if(i==0) {
+			if(i==l) {
 				System.out.println(str+" is Palindrom");
 			}else {
 				System.out.println(str+" is notPalindrom");
@@ -105,8 +103,9 @@ class Variable{
 				 default:
 					c++;
 				}
+				i++;
 			}
-			System.out.println("String length = "+str.length());
+			System.out.println(str+" length = "+str.length());
 			System.out.println("Vowel count = "+v);
 			System.out.println("Consosnet count = "+c);
 		}
@@ -124,14 +123,16 @@ public class Main_variable {
 		Scanner sc = new Scanner(System.in);
 		Variable.Number ob = new Variable.Number();
 		
-//		System.out.print("Enter double : ");
-//		double d = sc.nextDouble();
-//		Variable ob1 = new Variable(d);
+		System.out.print("Enter double : ");
+		double d = sc.nextDouble();sc.nextLine();
+		Variable ob1 = new Variable(d);
 		System.out.print("Enter String : ");
 		String s = sc.nextLine();
 		Variable ob2 = new Variable(s);
 		
-//		ob.show();
+		System.out.println("-------------NUMBER------------");
+		ob.show();
+		System.out.println("-------------STRING------------");
 		ob.check();
 	}
 

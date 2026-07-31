@@ -7,38 +7,6 @@ public class test {
 		Scanner sc = new Scanner(System.in);
 		double d = sc.nextDouble();
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		if(d == ((double)((int)d)))
 			System.out.println("int");
 		else
