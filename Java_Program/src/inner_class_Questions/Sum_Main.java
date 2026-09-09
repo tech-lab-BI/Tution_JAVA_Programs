@@ -59,7 +59,10 @@ public class Sum_Main {
 		System.out.print("Enter 2 Char : ");
 		x = sc.next().charAt(0);
 		y = sc.next().charAt(0);
-		System.out.println("Result 3 : "+c.addChar(x, y));
+		int r = c.addChar(x, y);
+		if(r != -1) {
+			System.out.println("Result 3 : "+r);
+		}
 	}
 
 }
