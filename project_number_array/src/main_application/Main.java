@@ -1,3 +1,10 @@
+// Q - 30) Create a package numbers with sub-packages check (classes: Prime, Strong, Armstrong, Perfect with check_className() methods) and values (classes: Factorial, Power, SumFactor with static get_className() methods).
+// Create a package adt with abstract classes Student (name, roll, mark) and Employee (name, sal, company).
+// Create a package array with classes Sum, Max, Min containing integer array / ADT object array, with methods display() (prints sorted) and get_className() (returns result).
+// Create package main_application with main class to execute a menu-driven approach for all functionalities.
+// input  - Choice: 1 (Check Prime), Number: 13
+// output - 13 is Prime: true
+
 package main_application;
 
 import java.util.Scanner;

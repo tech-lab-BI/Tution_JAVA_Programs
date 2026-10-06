@@ -1,3 +1,11 @@
+// Theory - Create a class Shape having instance variables: name, peri, and area. Create a method named show() which will show the area and perimeter of the shape.
+// Create 3 child classes named Circle, Quad, and Triangle.
+// Circle has instance variable r, Quad has instance variables a and b, and Triangle has instance variables a, b, and c.
+// All 3 classes will override the method show() which will assign the values for name, peri, and area.
+// Create Main class and from main() take input for different kinds of shapes using a menu-driven approach using runtime polymorphism and find the corresponding area and perimeter of the shape.
+// input  - Choice: 1 (Circle), Radius: 7
+// output - Name: Circle, Perimeter: 43.982297150257105, Area: 153.93804002589985
+
 package polymorphism;
 import java.util.*;
 

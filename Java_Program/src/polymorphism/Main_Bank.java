@@ -1,3 +1,12 @@
+// unknown - Create a base class Bank having instance variables: acc_no, name, contact, balance, bank, and interest.
+// Create a constructor in Bank that generates an account number by appending the sum of the digits of the contact number to the contact string itself.
+// Include methods deposit(double balance), withdrawal(double balance), calculateInterest(), and show() to display account details.
+// Create 4 child classes named SBI, HDFC, ICICI, and PNB extending Bank, setting their respective bank names and interest rates (SBI: 3.0%, HDFC: 4.0%, ICICI: 5.0%, PNB: 6.0%).
+// Create a Main_Bank class with a passbookUpdate method that logs transactions into a string array.
+// In main(), use a menu-driven approach to create an account (validating that the contact number is 10 digits) and perform operations: 1. Deposit 2. Withdrawal 3. Balance Check 4. Show passbook 5. Profile 6. Exit.
+// input  - Bank Choice: 1 (SBI), Name: Rahul, Contact: 9876543210, Opening Balance: 5000, Operation Choice: 1 (Deposit), Amount: 1000
+// output - Amount : 1000.0 successfully deposit at A/C no - 987654321045
+
 package polymorphism;
 import java.util.*;
 

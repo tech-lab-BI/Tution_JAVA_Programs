@@ -1,3 +1,7 @@
+// Q34-iv - WAP to take a string consist of digit only, find the largest even and odd numbers from that string. Find the diff between them.
+// input  - 128764
+// output - Largest Even: 128764, Largest Odd: 1287, Diff: 127477
+
 package string_competitive_checking;
 
 import java.util.Scanner;

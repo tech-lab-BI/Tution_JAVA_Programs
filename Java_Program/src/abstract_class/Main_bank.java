@@ -1,3 +1,15 @@
+// Q - Create an abstract class named Bank having instance variables: name, acc_no (final), contact, balance.
+// NOTE: acc_no will be generated using contact_no ending with the sum of its digits, which will be implemented in each class.
+// Create parameterized constructor as required.
+// Create two abstract methods named deposit(double) and withdraw(double).
+// Create a normal method named show(), which will print all the details of the person.
+// Create 3 child classes named SBI, ICICI, and HDFC, which will implement the above abstract methods.
+// deposit(double) - for every deposit 10% will be added on additional deposit amount for SBI, for ICICI it is 20%, for HDFC it is 15%.
+// withdraw(double) - for every withdrawal 5% will be deducted on withdrawal amount as bank charge for SBI, for ICICI - 10%, HDFC - 8%.
+// Create Main class. From main(), take input of a person and choose which account he/she is going to open using a menu-driven approach. Perform deposit and withdraw operations until the user exits.
+// input  - Name: Rahul, Contact: 9876543210, Initial Balance: 5000, Bank Choice: 1 (SBI), Operation: Deposit 1000
+// output - Account Created with Acc No: 987654321045, Deposit Success! New Balance: 6100.0
+
 package abstract_class;
 
 import java.util.*;

@@ -1,4 +1,4 @@
-//question - Create a class named Address having instance variable area, dist, state and PIN. 
+//Theory - Create a class named Address having instance variable area, dist, state and PIN. 
 //Create a method display(), which will display the area details. 
 //Create a class named Student having instance variables name, roll and use aggregation of address class. 
 //Create a method named show() which will print all details of a student including address. 

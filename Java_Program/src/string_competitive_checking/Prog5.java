@@ -1,3 +1,7 @@
+// Q34-v - WAP to take a sentence as user input, reverse that sentence word wise.
+// input  - Data Science is Fun
+// output - Fun is Science Data
+
 package string_competitive_checking;
 
 import java.util.Scanner;

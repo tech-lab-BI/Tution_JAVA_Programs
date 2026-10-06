@@ -1,4 +1,4 @@
-//question - Create a class named Circle having 
+//Q5 - Create a class named Circle having 
 //instance variable rad and a method named areaCircle(), 
 //which will calculate the area of circle. Create a class named Quadrilateral having 
 //instance variable length and breadth. Create a method named areaQuadrilateral(), 

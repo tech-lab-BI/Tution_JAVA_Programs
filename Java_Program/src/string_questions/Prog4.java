@@ -1,3 +1,7 @@
+// Q33(iv) WAP to take an array of integers as user input in string format. Find the sum of all integer values.
+// input  - [2, 3, 4, 6]
+// output - Sum: 15
+
 package string_questions;
 
 import java.util.Scanner;

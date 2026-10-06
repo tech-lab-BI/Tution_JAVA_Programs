@@ -1,3 +1,7 @@
+// Q33(ii) WAP to take a string as user input and toggle each word.
+// input  - Hello World
+// output - hELLO wORLD
+
 package string_questions;
 
 import java.util.Scanner;

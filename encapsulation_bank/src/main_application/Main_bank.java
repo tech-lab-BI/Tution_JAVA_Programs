@@ -1,3 +1,11 @@
+// Q32 - Create a package bank carrying an abstract class Bank and child class Atm.
+// In Bank class, encapsulate instance variables: contact, balance, acc_no, and name. Create constructor to generate acc_no (e.g., first letter of first name + last name initial + contact).
+// Include abstract methods: void deposit(String acc_no, double amount), void withdraw(int pin, double amount), and void display().
+// In Atm class, encapsulate instance variable pin. Implement abstract methods and add void changePin(int oldPin, String acc_no, int newPin) which changes PIN on correct validation or prints "failed".
+// Create another package main having class Person with main() method to perform: 1. Input person details 2. Deposit & withdraw operations 3. PIN change 4. Display details.
+// input  - Name: John Parle, Contact: 1234567890, Balance: 5000, PIN: 1234
+// output - A/C No: JP1234567890, Balance: 5000.0, PIN changed successfully.
+
 package main_application;
 
 import java.util.Scanner;

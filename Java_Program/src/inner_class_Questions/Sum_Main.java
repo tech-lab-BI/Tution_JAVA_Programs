@@ -1,3 +1,10 @@
+// Q25 - Create an interface named Sum having abstract methods: int addNumber(int, int), int addArray(int[]), and int addChar(char, char).
+// Create a class Calculation having a method getResult(), which will return the anonymous inner class object with implementation of the above defined interface.
+// Create Main class and from main(), take two integer inputs, an array of integers, and two characters as user input.
+// Call the above defined abstract methods respectively and print the result.
+// input  - Integers: 5 10, Array: [1, 2, 3, 4], Characters: 'A' 'B'
+// output - Sum of Integers: 15, Sum of Array: 10, Sum of ASCII Characters: 131
+
 package inner_class_Questions;
 import java.util.Scanner;
 

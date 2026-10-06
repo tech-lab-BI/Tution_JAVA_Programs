@@ -1,4 +1,4 @@
-//question - Write A Program to take multiple Integers 
+//Q3 - Write A Program to take multiple Integers 
 //as Command Line Arguments. Print the numbers with their reverse.
 //input - 27 23 26 90
 //output - 27:72 23:32 26:62 90:9

@@ -1,4 +1,4 @@
-//question - Create a class named Employee having instance variables id, name, salary, company, 
+//Q11 - Create a class named Employee having instance variables id, name, salary, company, 
 //contact, secondary_contact, email, dob. Create parameterized constructor and overload 
 //the constructor as per requirement where secondary_contact, email & DOB are optional. 
 //If secondary_contact is not given as input, then it is assigned as ten '0'. 

@@ -1,3 +1,7 @@
+// Q33(i) WAP to take a String as user input. Count alphabets, digits, spaces, and special characters of the string.
+// input  - Hello World 123!
+// output - Alphabets: 10, Digits: 3, Spaces: 2, Special Characters: 1
+
 package string_questions;
 
 import java.util.Scanner;

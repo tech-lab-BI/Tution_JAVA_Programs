@@ -1,10 +1,12 @@
-/**Q>* Create an abstract class name Shape having instance variables – r, h, l. 
-Create constructors with 1 parameter (r), with 2 parameters (r, h), 3 parameters (r, h, l).
- * Create two abstract methods volume() and surface_area().
- * Create three child class name – Sphere, Cylinder and Cone 
- 	having parameterized constructor as requires. Overrides the abstract method in all class.
- * Create Main class from main method take user input by menu 
- 	driven approach and find surface_area and volume.*/
+// Q - Create an abstract class named Shape having instance variables: r, h, l.
+// Create constructors with 1 parameter (r), 2 parameters (r, h), and 3 parameters (r, h, l).
+// Create two abstract methods: volume() and surface_area().
+// Create three child classes named Sphere, Cylinder, and Cone,
+// having parameterized constructors as required. Override the abstract methods in all classes.
+// Create a Main class. From the main method, take user input using a menu-driven approach
+// and calculate surface_area and volume.
+// input  - Choice: 1, Radius: 7.0
+// output - Surface Area: 615.75, Volume: 1436.76
 
 package abstract_class;
 

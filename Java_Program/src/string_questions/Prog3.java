@@ -1,3 +1,7 @@
+// Q33(iii) WAP to take a sentence as user input. Find the largest and smallest word length-wise.
+// input  - This is Java
+// output - Largest: This (or Java), Smallest: is
+
 package string_questions;
 
 import java.util.Scanner;

@@ -1,15 +1,15 @@
-//question - Create a class named Shape having instance variables name,
-//vol and a method showVol(), which will display the volume in console. 
-//Create a child class of Shape named Sphere having instance variable rad. 
-//Create a method named calculate_sphere(), which will calculate the sphere volume and 
-//store in name and volume variable in shape class. In the above same way, 
-//create two child class of shape named Cylinder and Cone. 
-//Cylinder is having instance variables rad, height. Cone is having instance variables rad, height.
-//Both classes will have the method named calculate_Cylinder(), calculate_Cone() respectively.
-//All 3 child classes have parameterized constructor as required. Create Main class and from main()
-//take input of 3 type of shapes using menu driven approach and show their value.
-//input - 1 5.0
-//output - Name: Sphere, Volume: 523.5987755982989
+// Theory - Create a class named Shape having instance variables: name, vol, and a method showVol()
+// which displays the volume in the console.
+// Create a child class of Shape named Sphere having instance variable rad.
+// Create a method named calculate_sphere() which calculates the sphere volume and
+// stores the result in name and vol variables of the Shape class.
+// In the same way, create two child classes of Shape named Cylinder and Cone.
+// Cylinder has instance variables rad, height. Cone has instance variables rad, height.
+// Both classes will have methods named calculate_Cylinder() and calculate_Cone() respectively.
+// All 3 child classes have parameterized constructors as required. Create a Main class and from main()
+// take input for the 3 types of shapes using a menu-driven approach and show their values.
+// input  - Choice: 1 (Sphere), Radius: 5.0
+// output - Name: Sphere, Volume: 523.5987755982989
 
 package inheritance;
 import java.util.Scanner;

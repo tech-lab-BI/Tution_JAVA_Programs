@@ -1,3 +1,13 @@
+// Q15 - Create a class named Student having instance variables: name, HS, secondary, rank. Create a method show() which will display details of the student.
+// Create a class named College having instance variables: type, fees, and an object of Student class. Create showDetails() which will print all details. Student class should be aggregated in College class.
+// Create 3 child classes of College class named Govt, Semi-Govt, and Private. Create a method named admission() which will assign the type as Govt / Semi-Govt / Private and assign the fee structure as: Govt -> 60K, Semi-Govt -> 1.5L, Private -> 3.2L.
+// Create a Main class and from main method take student details as user input and decide which college he/she can study as per criteria:
+// - Govt: HS > 80%, Madhyamik > 80%, Rank < 3000
+// - Semi-Govt: HS 70-79%, Madhyamik 70-79%, Rank 3000-6000
+// - Private: HS 60-70%, Madhyamik 60-70%, Rank > 6000 (below 60% go for management quota).
+// input  - Name: Rahul, HS: 85, Secondary: 82, Rank: 2500
+// output - Name: Rahul, HS: 85.0%, Secondary: 82.0%, Rank: 2500, Eligible College: Govt, Fees: 60K
+
 package inheritance;
 import java.util.Scanner;
 

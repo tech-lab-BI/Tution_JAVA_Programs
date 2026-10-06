@@ -1,3 +1,11 @@
+// Q17 - Create a class named Variable having class variables num (double) and str (String). Perform constructor overloading for num and str variables separately.
+// Create a static nested class named Number having a method named show(), which will print whether the number (if it is actually integer value of double) is even or odd, prime, strong, perfect or not.
+// Create another static nested class named String_class having a method named check(), which will print whether the string is palindrome or not, number of letters with vowel and consonant count.
+// Create Main class and from main() take input of 1 double value and 1 String value and call the above show() and check() respectively.
+// input  - Number: 28, String: madam
+// output - 28 is Even, Not Prime, Strong Number, Perfect Number
+//          String 'madam' is Palindrome, Vowels: 2, Consonants: 3
+
 package static_keyword;
 import java.util.*;
 

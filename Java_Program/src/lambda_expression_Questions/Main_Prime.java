@@ -1,3 +1,10 @@
+// Q26 - (i) Create a functional interface named Prime having a method: boolean check(int), which will check whether the number is prime or not and accordingly return true or false.
+// Create a class named Number having a method named checkNumber(int), which will print whether the number is prime or not using lambda expression.
+// Create Main class and from main() take a number as user input and call the above checkNumber().
+// (ii) Create the same functional interface having int[] as parameter, i.e., boolean[] check(int[]).
+// input  - Number: 7
+// output - 7 is a Prime Number
+
 package lambda_expression_Questions;
 import java.util.*;
 

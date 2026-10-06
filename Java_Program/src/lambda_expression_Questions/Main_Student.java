@@ -1,3 +1,11 @@
+// Q28 - Create a functional interface named Student having an abstract method: void display().
+// Create a class named StudentDetails having instance variables: name, roll, mark. Create parameterized constructor as required.
+// Create a method getDetails(), which will return the student details using lambda expression [ReturnType - Student].
+// Create Main class and from main() take n number of student details as user input. Print their details sorted by roll numbers.
+// input  - 2 Alice 102 85.5 Bob 101 90.0
+// output - Roll: 101, Name: Bob, Marks: 90.0
+//          Roll: 102, Name: Alice, Marks: 85.5
+
 package lambda_expression_Questions;
 import java.util.*;
 

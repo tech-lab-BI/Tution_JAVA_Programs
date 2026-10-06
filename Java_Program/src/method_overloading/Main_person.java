@@ -1,4 +1,4 @@
-//question - Create a class named Person having instance variables name, contact, age & object of Address. 
+//Q14 - Create a class named Person having instance variables name, contact, age & object of Address. 
 //Address is a diff class having instance variables area, dist, state, pin & this class will be
 //aggregate in Person class. Create a method named getId(), which will create the ID of the person by 
 //1st letter of name & surname followed by last 4 digit of contact number. 

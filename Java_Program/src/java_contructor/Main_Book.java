@@ -1,13 +1,13 @@
-//question - Create a class Book having instance variables name, author, price. 
-//Create parameterized constructor to assign all the details. 
-//Create a method show(), which will print price and book details in a single line. 
-//Create Main class and from main() take n number of book details as user input and assign 
-//the values through parameterized constructor and perform below methods — 
-//(i) void showByAuthor(Book[], author) - this method will print the book details by the author provided. 
-//(ii) Book maxPrice(Book[]) - this method will return the class object which has having maximum price. 
-//(iii) void bookByPrice(Book[]) - this method will display the all book details sorted by price in ascending order.
-//input - 2 BookA AuthorX 350 BookB AuthorY 550 AuthorX
-//output - Name: BookA, Author: AuthorX, Price: 350.0
+// Q8 - Create a class Book having instance variables name, author, price.
+// Create parameterized constructor to assign all the details.
+// Create a method show(), which will print price and book details in a single line.
+// Create Main class and from main() take n number of book details as user input and assign
+// the values through parameterized constructor and perform below methods —
+// (i) void showByAuthor(Book[], author) - this method will print the book details by the author provided.
+// (ii) Book maxPrice(Book[]) - this method will return the class object which has maximum price.
+// (iii) void bookByPrice(Book[]) - this method will display all book details sorted by price in ascending order.
+// input  - 2 BookA AuthorX 350 BookB AuthorY 550 AuthorX
+// output - Name: BookA, Author: AuthorX, Price: 350.0
 
 package java_contructor;
 import java.util.Scanner;

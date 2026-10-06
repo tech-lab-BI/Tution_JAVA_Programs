@@ -1,4 +1,4 @@
-//question - Write A Program to take multiple Integers as 
+//Q2 - Write A Program to take multiple Integers as 
 //Command Line Arguments. Find maximum and minimum values
 //between them and print it.
 //input - 12 45 2 67 23

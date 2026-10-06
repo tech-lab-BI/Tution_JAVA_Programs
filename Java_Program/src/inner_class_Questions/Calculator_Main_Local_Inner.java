@@ -1,3 +1,12 @@
+// Q24 - Create a class named Calculator having instance variable result and a method calculation(int, int, char).
+// The method should have 4 local inner classes named Sum, Sub, Mul, Div.
+// All classes have 1 method named getResult(), which will store the result in the result instance variable of the outer class.
+// From this method, it will display the result value.
+// Create a Main class and from main(), take two integers as user input and operator as user input.
+// Perform the calculator operation using a menu-driven approach and display the result in calculation().
+// input  - Numbers: 10 5, Operator: +
+// output - Result: 15
+
 package inner_class_Questions;
 import java.util.*;
 

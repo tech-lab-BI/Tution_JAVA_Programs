@@ -1,4 +1,4 @@
-//question - Create a class Shape having instance variables area and perimeter. 
+//Q13 - Create a class Shape having instance variables area and perimeter. 
 //Create method overloading with the name display() to calculate having no parameter, 
 //1 parameter, 2 parameters, 3 parameters. No parameters — display no shape. 
 //1 parameter — display area & perimeter of circle. 

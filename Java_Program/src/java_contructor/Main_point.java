@@ -1,4 +1,4 @@
-//question - Create a class named Point having instance variables x, y. 
+//Q10 - Create a class named Point having instance variables x, y. 
 //Use constructor overloading with no parameter which will assign the point as (0, 0), 
 //having one parameter which will assign value as (x, 0), and having two parameters 
 //which will assign value as (x, y). Create a class Calculate having instance variable with two 

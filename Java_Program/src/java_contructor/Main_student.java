@@ -1,4 +1,4 @@
-//question - Create a class Student having instance variable name, roll, marks. 
+//Theory - Create a class Student having instance variable name, roll, marks. 
 //All instance variables can be assigned through parameterized constructor, 
 //create a method named display(), which will display the all details of a students. 
 //Create Main class and from main(), take two student details as user input and compare their marks. 

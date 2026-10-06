@@ -1,3 +1,12 @@
+// Q16 - Create a class named Shape having class member variables: a, b, c, area, and peri.
+// Perform constructor overloading having zero, one, two, and three parameters.
+// Create 3 static nested classes named Circle, Quad, and Triangle, which will access one variable (a), two variables (a, b), and three variables (a, b, c) respectively.
+// Create a method calculate(), which will calculate the area and perimeter for all shapes.
+// Create a method named display() in Shape class to print the shape name, area, and perimeter of respective shapes.
+// Create Main class, from main() take inputs of corresponding shape and display their details in Shape class.
+// input  - Choice: 1 (Circle), Radius: 7
+// output - Shape: Circle, Perimeter: 43.98, Area: 153.94
+
 package static_keyword;
 import java.util.*;
 

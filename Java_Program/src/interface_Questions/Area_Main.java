@@ -1,3 +1,9 @@
+// Q20 - Create an interface named Area having abstract method named getArea() and create another interface named Volume having abstract method named getVolume().
+// Create 3 classes named Sphere, Cylinder, and Cone which will perform multiple inheritance.
+// Create Main class and from main() take input of Sphere / Cylinder / Cone using a menu-driven approach and find Area and Volume of the corresponding shape.
+// input  - Choice: 1 (Sphere), Radius: 7.0
+// output - Surface Area: 615.75, Volume: 1436.76
+
 package interface_Questions;
 
 import java.util.Scanner;

@@ -1,3 +1,10 @@
+// Q23 - Create a class named Shape having instance variables: c_area, q_area, t_area. Create a method display(), which will print the area of circle, quad, and triangle using the above instance variables.
+// Create 3 member nested classes named Circle (having instance variable r), Quad (having instance variables a, b), and Triangle (having instance variables a, b, c).
+// All 3 classes should have constructors to initialize corresponding instance variables and a method area(), which will calculate the area for the corresponding shape and assign the value to the instance variables in the Shape outer class.
+// Create Main class and from main() take inputs of different types of shapes and print the area.
+// input  - Circle radius: 7, Quad sides: 4 5, Triangle sides: 3 4 5
+// output - Circle Area: 153.93804, Quad Area: 20.0, Triangle Area: 6.0
+
 package inner_class_Questions;
 
 import java.util.*;
@@ -58,7 +65,7 @@ class Shape{
 	}
 }
 
-public class Shape_Main_Member_Inner {
+public class Shape_Main_InnerClass {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

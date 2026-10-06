@@ -1,3 +1,13 @@
+// Q21 - Create an interface named Payment having the abstract methods: void pay(double amt) and void charge(double amt).
+// Create 3 child classes named CreditCard, UPI, and PayPal having instance variables main_balance and charge_balance.
+// For CreditCard, a 5% charge will be deducted and added to charge_balance from the pay() method.
+// The same will be applicable for UPI - 1% and PayPal - 2%.
+// Create another class Checkout with the main() method to make N number of payments using a menu-driven approach.
+// Print the total payment for different payment systems along with the charge and remaining amount.
+// Finally, print the total balance, charge, and remaining amount after performing all operations for all individual payments.
+// input  - Choice: 1 (CreditCard), Amount: 100
+// output - Payment: 100.0, Charge: 5.0, Remaining Balance: 95.0
+
 package interface_Questions;
 
 import java.util.*;

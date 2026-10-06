@@ -1,4 +1,4 @@
-//question - Create a class named Shape having instance variables a, b, c. 
+//unknown - Create a class named Shape having instance variables a, b, c. 
 //Define constructor overloading in that class having no parameters which print "No shape", 
 //having one parameter which print the area of circle, having two parameters which print the
 //area of rectangle or square, having three parameters which will print the area of triangle. 

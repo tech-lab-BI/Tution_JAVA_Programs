@@ -1,3 +1,10 @@
+// Q27 - Create 4 functional interfaces named Add, Sub, Div, Mul, each interface having one abstract method.
+// Create a class Calculators having two instance variables num1 & num2. Create a constructor to initialize those variables.
+// Create a method calculate() which will calculate all calculator operations using lambda expressions, store the results in an integer array, and return it.
+// Create Main class and from main() take 2 integers as user input, find their calculated results, and print them.
+// input  - Numbers: 20 5
+// output - Addition: 25, Subtraction: 15, Division: 4, Multiplication: 100
+
 package lambda_expression_Questions;
 import java.util.*;
 

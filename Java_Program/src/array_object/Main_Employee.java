@@ -1,4 +1,4 @@
-//question - Create a class Employee having instance 
+//Q7 - Create a class Employee having instance 
 //variables ID, name, sal, ref_of_add reference of Address class. 
 //Create a method display(), which will display employee details in a single line. 
 //Create a class Address, having instance variables area, city, state, country, pin. 

@@ -1,3 +1,13 @@
+// Exam2 - Create a class Employee with attributes id (int), name (String), designation (String), salary (double), along with a parameterized constructor and getter methods getSalary() and getDesignation().
+// Create a class Company with private attributes companyName (String), employees (Employee array), numEmployees (int), and a parameterized constructor.
+// Implement three methods in Company class:
+// 1. getAverageSalary(): Returns average salary of all employees.
+// 2. getMaxSalary(): Returns highest salary among all employees.
+// 3. getEmployeesByDesignation(String designation): Returns an array of matching employees sorted by salary in increasing order (case-insensitive).
+// In main(), read company name, number of employees, and employee details via Scanner. Create a Company object and print average salary, max salary, and matching employee details for a target designation.
+// input  - Company: ABC Company, Num: 3, Emp1: 101 John Manager 5000, Emp2: 102 Jane Engineer 5000, Emp3: 103 Bob Engineer 4500, Search Designation: Engineer
+// output - Average salary: 4833.33, Max salary: 5000.0, Employees with designation Engineer: ID: 103, Name: Bob Johnson, Designation: Engineer, Salary: 4500.0 | ID: 102, Name: Jane Doe, Designation: Engineer, Salary: 5000.0
+
 package exam_25_07_2026;
 
 import java.util.Scanner;

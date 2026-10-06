@@ -1,4 +1,4 @@
-//question - Create a class named 'Student' having 
+//Theory - Create a class named 'Student' having 
 //instance variable - name (String), roll (int), marks (double). 
 //Create a method named display(), which can display all the details of a student. 
 //Create Main class and from main method, take two student details 

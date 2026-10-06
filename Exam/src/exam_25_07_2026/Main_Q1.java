@@ -1,3 +1,12 @@
+// Exam1 - Create a class Player with attributes: playerId (int), skill (String), level (String), and points (int).
+// Create a parameterized constructor in the attribute sequence specified above.
+// Create class Solution with main() method and two static methods: findPointsForGivenSkill and getPlayerBasedOnLevel.
+// 1. findPointsForGivenSkill: Takes an array of Player objects and skill string, returning the sum of points for matching players (case-insensitive). Returns 0 if skill is not found.
+// 2. getPlayerBasedOnLevel: Takes level string, skill string, and array of Player objects. Returns the Player object matching level and skill (case-insensitive) with points >= 20, or null if no match is found.
+// In main(), take inputs for n players, skill to check points, skill and level to check player availability. Display total points (or "The given Skill is not available") and matching player's ID (or "No player is available with specified level, skill and eligibility points").
+// input  - 5 101 Cricket Basic 20 102 Cricket Intermediate 15 111 Football Intermediate 50 113 BaseBall Advanced 100 117 Football Intermediate 21 Cricket Football Intermediate
+// output - Total Points: 35, Player ID: 111
+
 package exam_25_07_2026;
 import java.util.Scanner;
 

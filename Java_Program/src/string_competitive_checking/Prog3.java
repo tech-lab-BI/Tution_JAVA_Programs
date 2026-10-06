@@ -1,3 +1,7 @@
+// Q34-iii - WAP to take a Date as user input as string. The date can be taken as "DD-MM-YYYY" or "MM-DD-YYYY". Check that the date valid or not, also print the format of input date.
+// input  - 21-05-2001
+// output - DD-MM-YYYY
+
 package string_competitive_checking;
 
 import java.util.Scanner;

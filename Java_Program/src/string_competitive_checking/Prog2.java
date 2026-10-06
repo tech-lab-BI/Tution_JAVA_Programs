@@ -1,3 +1,7 @@
+// Q34-ii - WAP to take a string as user input. Convert String to Titlecase.
+// input  - java prog
+// output - Java Prog
+
 package string_competitive_checking;
 
 import java.util.Scanner;

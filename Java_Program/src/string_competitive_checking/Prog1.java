@@ -1,3 +1,12 @@
+// Q34-i - WAP to take a password as user input. Check that the password is secure or not if it fulfills the below criteria:
+// a) Password must contain at least 1 lowercase letter.
+// b) At least 1 uppercase letter.
+// c) At least 1 digit.
+// d) At least 1 special character.
+// e) The password must be at least length = 10.
+// input  - U@code4JAVAprog
+// output - Secure Password
+
 package string_competitive_checking;
 
 import java.util.Scanner;

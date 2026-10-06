@@ -1,12 +1,13 @@
-/* Create a abstract class named Person having instance variable name and abstract method - display()
- * Create a class named Student having instance type(college/HS/SSC/below 8...).
- * Also implement the above abstract method display() - all details of a student.
- * Create an interface named Athelete having an abstract method - game().
- * Create a class named SportStudent which implement both Student and Athlete. Create instance variables - isAthlete[boolean]
- * ans a string variable player(athelete department name). Also implement abstract method - game() 
- * : which will diaplay the sport student details with the athelete player type, if yes.
- * Create Main class and from main() take a Sports and Student details as user input and show its details.
-*/
+// Q22 - Create an abstract class named Person having instance variable name and abstract method display().
+// Create a child class named Student having instance variable type (college/HS/SSC/below 8...).
+// Also implement the above abstract method display() to show all details of a student.
+// Create an interface named Athlete having an abstract method game().
+// Create a class named SportStudent which extends Student and implements Athlete.
+// Create instance variables isAthlete (boolean) and player (athlete department name/sports name).
+// Also implement abstract method game() which will display the sports student details along with the athlete player type, if isAthlete is true.
+// Create Main class and from main() take Student and Sports details as user input and show its details.
+// input  - Name: Rahul, Type: College, Is Athlete: true, Sports Name: Cricket
+// output - Name: Rahul, Type: College, Is Athlete: true, Sports Name: Cricket
 
 package interface_Questions;
 

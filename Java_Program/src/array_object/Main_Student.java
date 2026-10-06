@@ -1,4 +1,4 @@
-//question - Create a class named Student having instance variable roll, 
+//Q6 - Create a class named Student having instance variable roll, 
 //name and reference of Marks class. Create a method named display(),
 //which will display the student's name, roll and marks in each subject in a single line. 
 //Create a class named Marks having instance variable phy, che, math. 
