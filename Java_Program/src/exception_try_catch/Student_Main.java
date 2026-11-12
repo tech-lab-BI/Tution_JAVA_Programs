@@ -68,6 +68,7 @@ public class Student_Main {
 			mark = sc.nextInt();sc.nextLine();
 			s1[i] = new Student(name.trim(), roll, mark);
 		}
+		System.out.println("------OUTPUT------");
 		Result res = new Result(s1);
 		for(int i=0;i<n;i++) {
 			try {
