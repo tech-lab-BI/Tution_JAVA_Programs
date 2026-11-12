@@ -1,3 +1,22 @@
+//39. Create a class named CheckValue having the following instance variable:
+//
+//- String s
+//
+//Create a parameterized constructor.
+//
+//Create a method named check() which will check the integer values from the given String array. If a value is not an integer, print "NOT-INT".
+//
+//From the Main class, take a String as user input in the main() method and check all the values.
+//
+//Note:
+//If all values are integers, print the sum of all integers.
+//
+//Input:
+//10 20 6F E20 79.6
+//
+//Output:
+//10 20 NOT-INT NOT-INT NOT-INT
+
 package exception_try_catch;
 
 import java.util.Scanner;

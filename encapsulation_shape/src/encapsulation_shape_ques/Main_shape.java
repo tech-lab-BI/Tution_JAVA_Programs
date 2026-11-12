@@ -1,4 +1,4 @@
-// Q - 31) Create a package named shape having 3 classes named Circle, Quad, and Triangle.
+// Q31 Create a package named shape having 3 classes named Circle, Quad, and Triangle.
 // Circle has 1 instance variable (r), Quad has 2 instance variables (a, b), and Triangle has 3 instance variables (a, b, c).
 // All 3 classes should be encapsulated.
 // Create methods area() and perimeter() in all the above 3 classes.

@@ -1,4 +1,4 @@
-//**47) WAP to create a class `Employee` having the following instance variables:**
+//Q47) WAP to create a class `Employee` having the following instance variables:**
 //- `name`
 //- `comp`
 //- `sal`

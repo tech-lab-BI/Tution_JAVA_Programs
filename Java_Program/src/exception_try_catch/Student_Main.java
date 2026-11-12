@@ -1,3 +1,28 @@
+//40. Create a class named Student having the following instance variables:
+//
+//- roll
+//- name
+//- mark
+//
+//Create a method display() which will print all the details of a student.
+//
+//Custom Exception:
+//StudentErrorData
+//
+//Create a class named Result having a Student array.
+//
+//Create a method validStudentData() which will validate and display the details of the students.
+//
+//It will throw exceptions as follows:
+//
+//1. If roll does not contain a value from 1 to n, throw an exception: "Invalid Roll".
+//
+//2. If roll is duplicate, throw an exception: "Duplicate Roll".
+//
+//3. If name contains only a first name or a title, throw an exception: "Invalid student name".
+//
+//4. If mark is not less than 50%, throw an exception: "Failed student".
+
 package exception_try_catch;
 
 import java.util.Scanner;

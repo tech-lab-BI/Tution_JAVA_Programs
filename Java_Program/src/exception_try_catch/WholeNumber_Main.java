@@ -1,3 +1,27 @@
+//38. Create a Custom Exception class named WholeNumber.
+//
+//Create a class named Numbers having the following methods:
+//
+//1. findAvg(int[]) - Calculate the average of the given integer array. If the average is a floating-point number, throw the custom exception. Otherwise, print the average of all numbers.
+//
+//2. findMedian(int[]) - Calculate the median of all numbers. If the median value is present in the array, print the median value; otherwise, throw the custom exception.
+//
+//From the Main class, take an int[] as user input in the main() method and call the above methods.
+//
+//Input 1:
+//10 11 12 13
+//
+//Output 1:
+//Exception: avg is floating point
+//Exception: median not present in array
+//
+//Input 2:
+//2 4 6 8 10
+//
+//Output 2:
+//Avg = 6 = median
+//Median present in array
+
 package exception_try_catch;
 
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-//WAP to create a class Student having instance variables — name, roll, marks. 
+//Q46 - WAP to create a class Student having instance variables — name, roll, marks. 
 //Create a parameterized constructor and a method named void studentDetails(), 
 //which will print the details of the student.
 

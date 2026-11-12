@@ -1,4 +1,4 @@
-//WAP to take 'n' number of string input as user input. 
+//Q45 WAP to take 'n' number of string input as user input. 
 //Delete the string which was having max length. 
 //Also print the string. 
 

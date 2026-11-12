@@ -1,4 +1,4 @@
-// Q - Create an abstract class named Bank having instance variables: name, acc_no (final), contact, balance.
+// Q19 - Create an abstract class named Bank having instance variables: name, acc_no (final), contact, balance.
 // NOTE: acc_no will be generated using contact_no ending with the sum of its digits, which will be implemented in each class.
 // Create parameterized constructor as required.
 // Create two abstract methods named deposit(double) and withdraw(double).

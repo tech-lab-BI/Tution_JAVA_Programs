@@ -1,3 +1,18 @@
+//37. WAP to create a class named Person having the following instance variables:
+//
+//- name
+//- contact
+//
+//Create a method display() which will display all the details of a person.
+//
+//From the Main class, take n number of employee details as user input.
+//
+//Create an object only if the length of the contact number is 10. Otherwise, assign a null value.
+//
+//After taking all the details, print the details of each person.
+//
+//If the object is not created, print "Data not found".
+
 package exception_try_catch;
 
 import java.util.Scanner;

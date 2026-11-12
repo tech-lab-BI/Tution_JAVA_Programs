@@ -1,4 +1,4 @@
-//question - Write A Java program to take an array as input. 
+//1 - Write A Java program to take an array as input. 
 //Print the array elements with the sum of their digits. 
 //Create the below methods in that program: 
 //	void show(int a[]), int SOD(int n), void main(String args[])

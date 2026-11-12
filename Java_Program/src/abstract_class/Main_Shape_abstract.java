@@ -1,4 +1,4 @@
-// Q - Create an abstract class named Shape having instance variables: r, h, l.
+// Q18 - Create an abstract class named Shape having instance variables: r, h, l.
 // Create constructors with 1 parameter (r), 2 parameters (r, h), and 3 parameters (r, h, l).
 // Create two abstract methods: volume() and surface_area().
 // Create three child classes named Sphere, Cylinder, and Cone,
