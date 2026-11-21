@@ -47,7 +47,8 @@
 //2. Find the bottom `n` transactions, where `n` is provided by the user.
 //3. Display transaction details for withdrawal transactions only.
 //4. Display transaction details for deposit transactions only.
-//5. Find the transactions with the maximum deposit amount and maximum withdrawal amount.
+//5. Find the transactions with the maximum deposit amount.
+//6. Find the transection with the maximum withdrawal amount.
 
 package misc;
 import java.util.*;
@@ -84,8 +85,59 @@ abstract class Bank {
 		System.out.println("Bank : "+bank);
 		System.out.println("Point : "+point);
 	}
-	void showTransection() {
+
+	void first_N_Transection(int n) {
+		int s = passbook.size();
+		if(n > s) {
+			System.out.println("You have only "+s+" transection.");
+			return;
+		}
 		System.out.println("No.  Dep.  Wit. Bal. CashBack");
+		int it = 1;
+		for(int i=0;i<n;i++) {
+			System.out.printf("%d  %.2f %.2f %.2f %.2f\n",it++,
+					passbook.get(i).get(0),passbook.get(i).get(1),
+					passbook.get(i).get(2),passbook.get(i).get(3));
+//			System.out.println((it++)+"  "+(passbook.get(i).get(0))+"  "+(passbook.get(i).get(1))+"  "+(passbook.get(i).get(2))+"  "+(passbook.get(i).get(3)));
+		}
+	}
+	void last_N_Transection(int n) {
+		int s = passbook.size();
+		if(n > s) {
+			System.out.println("You have only "+s+" transection.");
+		}
+		System.out.println("No.  Dep.  Wit. Bal. CashBack");
+		int it=1;
+		for(int i=s-n;i<s;i++) {
+			System.out.printf("%d  %.2f %.2f %.2f %.2f\n",it++,
+					passbook.get(i).get(0),passbook.get(i).get(1),
+					passbook.get(i).get(2),passbook.get(i).get(3));
+//			System.out.println((it++)+"  "+(passbook.get(i).get(0))+"  "+(passbook.get(i).get(1))+"  "+(passbook.get(i).get(2))+"  "+(passbook.get(i).get(3)));
+		}
+	}
+	void withdrawTransection() {
+		System.out.println("No.  Dep.  Wit. Bal. CashBack");
+		int it = 1;
+		for(int i=0;i<passbook.size();i++) {
+			if((double)passbook.get(i).get(1) > 0) {
+				System.out.printf("%d  %.2f %.2f %.2f %.2f\n",it++,
+						passbook.get(i).get(0),passbook.get(i).get(1),
+						passbook.get(i).get(2),passbook.get(i).get(3));
+//				System.out.println((it++)+"  "+(passbook.get(i).get(0))+"  "+(passbook.get(i).get(1))+"  "+(passbook.get(i).get(2))+"  "+(passbook.get(i).get(3)));
+			}
+		}
+	}
+	void depositTransection() {
+		System.out.println("No.  Dep.  Wit. Bal. CashBack");
+		int it=1;
+		for(int i=0;i<passbook.size();i++) {
+			if((double)passbook.get(i).get(0) > 0) {
+				System.out.printf("%d  %.2f %.2f %.2f %.2f\n",it++,
+						passbook.get(i).get(0),passbook.get(i).get(1),
+						passbook.get(i).get(2),passbook.get(i).get(3));
+//				System.out.println((it++)+"  "+(passbook.get(i).get(0))+"  "+(passbook.get(i).get(1))+"  "+(passbook.get(i).get(2))+"  "+(passbook.get(i).get(3)));
+			}
+		}
 	}
 }
 
@@ -96,15 +148,12 @@ class SBI extends Bank {
 		super(name, bal, "SBI");
 	}
 	void deposit(double val) {
-		if(val < 0) {
-			System.out.println("If you haven't money , go earn it first");
-			return;
-		}
 		setBalance(getBalance() + val);
 		setPoint(getPoint()+(val*dRate));
 		LinkedList<Double> l = new LinkedList<Double>();
 		l.add(val);
 		l.add(0.0);
+		l.add(getBalance());
 		l.add(getPoint());
 		passbook.add(l);
 	}
@@ -116,8 +165,9 @@ class SBI extends Bank {
 		setBalance(getBalance() - val);
 		setPoint(getPoint()-(val*dRate));
 		LinkedList<Double> l = new LinkedList<Double>();
-		l.add(val);
 		l.add(0.0);
+		l.add(val);
+		l.add(getBalance());
 		l.add(getPoint());
 		passbook.add(l);
 	}
@@ -129,15 +179,12 @@ class ICICI extends Bank {
 		super(name, bal, "SBI");
 	}
 	void deposit(double val) {
-		if(val < 0) {
-			System.out.println("If you haven't money , go earn it first");
-			return;
-		}
 		setBalance(getBalance() + val);
 		setPoint(getPoint()+(val*dRate));
 		LinkedList<Double> l = new LinkedList<Double>();
 		l.add(val);
 		l.add(0.0);
+		l.add(getBalance());
 		l.add(getPoint());
 		passbook.add(l);
 	}
@@ -149,8 +196,9 @@ class ICICI extends Bank {
 		setBalance(getBalance() - val);
 		setPoint(getPoint()-(val*dRate));
 		LinkedList<Double> l = new LinkedList<Double>();
-		l.add(val);
 		l.add(0.0);
+		l.add(val);
+		l.add(getBalance());
 		l.add(getPoint());
 		passbook.add(l);
 	}
@@ -162,15 +210,12 @@ class HDFC extends Bank {
 		super(name, bal, "SBI");
 	}
 	void deposit(double val) {
-		if(val < 0) {
-			System.out.println("If you haven't money , go earn it first");
-			return;
-		}
 		setBalance(getBalance() + val);
 		setPoint(getPoint()+(val*dRate));
 		LinkedList<Double> l = new LinkedList<Double>();
 		l.add(val);
 		l.add(0.0);
+		l.add(getBalance());
 		l.add(getPoint());
 		passbook.add(l);
 	}
@@ -182,8 +227,9 @@ class HDFC extends Bank {
 		setBalance(getBalance() - val);
 		setPoint(getPoint()-(val*dRate));
 		LinkedList<Double> l = new LinkedList<Double>();
-		l.add(val);
 		l.add(0.0);
+		l.add(val);
+		l.add(getBalance());
 		l.add(getPoint());
 		passbook.add(l);
 	}
@@ -192,27 +238,28 @@ class HDFC extends Bank {
 public class Bank_Main {
 
 	static void transection(Scanner sc, Bank ob) {
-		double val;
+		int n;
 		while(true) {
-			System.out.print("1. deposit\n2. withdrawal\n3. Show\n4. transection5. exit\n choose :: ");
+			System.out.print("1. Top N\n2. Bottom N\n3. Withdrawal only\n4. Deposit only\n5. exit\n choose :: ");
 			int ch = sc.nextInt();
 			System.out.println("-------------------------------------");
 			switch(ch) {
 				case 1 :
-					System.out.print("Enter Deposit value :: ");
-					val = sc.nextDouble();
-					ob.deposit(val);
+					System.out.print("Enter n value :: ");
+					n = sc.nextInt();
+					ob.first_N_Transection(n);
 					break;
 				case 2 :
-					System.out.print("Enter withdrawal value  :: ");
-					val = sc.nextDouble();
-					ob.withdrawal(val);
+					System.out.print("Enter n value  :: ");
+					n = sc.nextInt();
+					ob.last_N_Transection(n);
 					break;
 				case 3 :
-					ob.show();
+					ob.withdrawTransection();
 					break;
 				case 4:
-					
+					ob.depositTransection();;
+					break;
 				case 5:
 					System.exit(0);
 				default :
@@ -231,11 +278,19 @@ public class Bank_Main {
 				case 1 :
 					System.out.print("Enter Deposit value :: ");
 					val = sc.nextDouble();
+					while(val < 0) {
+						System.out.print("Value can't -ve. Re-enter :: ");
+						val = sc.nextDouble();
+					}
 					ob.deposit(val);
 					break;
 				case 2 :
 					System.out.print("Enter withdrawal value  :: ");
 					val = sc.nextDouble();
+					while(val < 0) {
+						System.out.print("Value can't -ve. Re-enter :: ");
+						val = sc.nextDouble();
+					}
 					ob.withdrawal(val);
 					break;
 				case 3 :
